@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{%block activeclass_products%}
+
+class="active"
+{%endblock%}
+
+{%block style%}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+{%endblock%}
+
+{% block content %}
+<center>
+    
+    <h1 >Products</h1>
+</center>
+
+<div style="display: flex;flex-direction:row;flex-wrap: wrap;">
+{%for i in products%}
+
+    <div class="card" >
+        <img src="{{i.image.url}}" style="width:100%; border-style: groove;" alt="">
+    <div class="container">
+ 
+            <h4><b>{{i.name}}</b></h4> 
+            <div style="padding: 10px;" >
+                <span style="margin-right: 40px;">Price: {{i.price}} </span> <span>Weight: {{i.weight}} Kg</span>
+              </div>
+        </div>
+    </div>
+    {%endfor%}
+</div>
+
+
+
+
+{%endblock%}
