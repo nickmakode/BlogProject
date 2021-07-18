@@ -18,7 +18,7 @@
 
 2. **CRUD operation on blogs**. user can create, update, delete and view his own blogs.
 
-3. **Search other users**. user can search other users and can see thier blog which are in 'public' status.
+3. **Differant databases for differant app**
 
 4. **hide blogs from other users**. if user make blog status to 'private' then other users can't see these blogs.
 
