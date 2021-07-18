@@ -4,10 +4,6 @@
 
 ## Project look:
 
-<p align="center" width="100%">
-    <img src="https://github.com/dwipalshrirao/blog-app-with-user-captcha-verification-in-django/blob/main/project_look.gif"> 
-</p>
-
 ## Features of project:
 
 
