@@ -34,7 +34,7 @@
   1. download project
 
   ```
-  git clone https://github.com/dwipalshrirao/blog-app-with-user-captcha-verification-in-django.git
+  git clone https://github.com/nickmakode/BlogProject
 
   cd blog-app-with-user-captcha-verification-in-django
   ```
